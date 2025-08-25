@@ -1,0 +1,6 @@
+LButtonClick 1481,1008
+Wait 1000
+KeyStrokes "&"
+Wait 4000
+KeyStrokes "'"
+Wait 4000
