@@ -1,48 +1,102 @@
 # Backend — Mignonneries de Nathalie
 
-Backend Node/Express, MongoDB.
+Backend développé en **Node.js / Express**, avec une base de données **MongoDB**.
 
-Principes
+## Principes
 
-- API REST légère pour gestion produits, panier et paiements.
-- Stockage MongoDB via Mongoose.
-- Paiement sécurisé avec Stripe + webhook pour finaliser commandes.
-- Envoi d'emails via Nodemailer.
+- API REST légère pour la gestion des produits, du panier et des paiements.
+- Stockage MongoDB via **Mongoose**.
+- Paiement sécurisé avec **Stripe** + webhook pour finaliser les commandes.
+- Envoi d’emails via **Nodemailer**.
 
-Démarrage
+## Démarrage
 
-1. Installer : npm install
-2. Variables d'environnement (.env) :
-   - PORT="3000", MONGO_URI, JWT_SECRET, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET,
-   - EMAIL_USER, EMAIL_PASS, ADMIN_EMAIL, ADMIN_PASSWORD FRONTEND_URL
-3. Lancer :
-   - Dev : npm run dev
-   - Prod : npm start
+1. Installer les dépendances :
+   ```bash
+   npm install
+   ```
+2. Créer un fichier .env avec les variables suivantes :
+   **PORT=3000**
+   **MONGO_URI=...**
+   **JWT_SECRET=...**
+   **STRIPE_SECRET_KEY=...**
+   **STRIPE_WEBHOOK_SECRET=...**
+   **EMAIL_USER=...**
+   **EMAIL_PASS=...**
+   **ADMIN_EMAIL=...**
+   **ADMIN_PASSWORD=...**
+   **FRONTEND_URL=...**
 
-Points techniques essentiels
+3. Lancer le serveur :
 
-- Point d'entrée : [server.js](server.js)
-- Webhook Stripe (body RAW) : route [routes/webhook.js](routes/webhook.js) traitée par [`controllers.webhookController.handleStripeWebhook`](controllers/webhookController.js)
-- Création session Stripe : [`controllers.paymentController.createCheckoutSession`](controllers/paymentController.js) — route [routes/payment.js](routes/payment.js)
-- Produits : CRUD, upload d'images via [`controllers.produitController.ajouterProduit`](controllers/produitController.js) / [`controllers.produitController.modifierProduit`](controllers/produitController.js) — routes [routes/produits.js](routes/produits.js)
-- Uploads : middleware [middleware/upload.js](middleware/upload.js) — fichiers servis statiquement sous /uploads
-- Auth : middleware JWT [middleware/authMiddleware.js](middleware/authMiddleware.js)
-- Modèles : [models/Product.js](models/Product.js), [models/Order.js](models/Order.js), [models/Utilisateur.js](models/Utilisateur.js)
+- Développement : npm run dev
 
-Endpoints clés (résumé)
+- Production : npm start
 
-- GET /api/produits
-- POST /api/produits (admin, upload) — [routes/produits.js](routes/produits.js)
-- PUT /api/produits/:id (admin, upload)
-- DELETE /api/produits/:id
-- POST /api/payment/create-checkout-session — [`controllers.paymentController.createCheckoutSession`](controllers/paymentController.js)
-- POST /api/payment/webhook — [`controllers.webhookController.handleStripeWebhook`](controllers/webhookController.js)
-- GET /api/recherche?search=... — [routes/recherche.js](routes/recherche.js)
-- GET/POST /api/galerie — [routes/galerie.js](routes/galerie.js)
+## Points techniques essentiels
 
-Outils d'import / export
-(non présent sur github en ligne)
+- Point d’entrée : server.js
 
-- Export collection produits : [export.js](export.js)
-- Import depuis produits.json : [import.js](import.js)
-- Fichier exemple : [produits.json](produits.json)
+- Webhook Stripe (body RAW) : route routes/webhook.js
+  → contrôleur controllers/webhookController.handleStripeWebhook
+
+- Création session Stripe : controllers/paymentController.createCheckoutSession
+  → route routes/payment.js
+
+- Produits : CRUD + upload d’images
+
+  - controllers/produitController.ajouterProduit
+  - controllers/produitController.modifierProduit
+  - Routes : routes/produits.js
+
+- Uploads : middleware middleware/upload.js
+
+- Authentification : middleware JWT middleware/authMiddleware.js
+
+- Modèles principaux :
+
+  - models/Product.js
+  - models/Order.js
+  - models/Utilisateur.js
+
+## Endpoints clés
+
+- Produits
+
+  - GET /api/produits
+
+  - POST /api/produits (admin, upload)
+
+  - PUT /api/produits/:id (admin, upload)
+
+  - DELETE /api/produits/:id
+
+- Paiement (Stripe)
+
+  - POST /api/payment/create-checkout-session → controllers/paymentController.createCheckoutSession
+
+  - POST /api/payment/webhook → controllers/webhookController.handleStripeWebhook
+
+- Recherche
+
+  - GET /api/recherche?search=...
+
+- Galerie
+
+  - GET /api/galerie
+
+  - POST /api/galerie
+
+## Outils d’import / export
+
+- Export de la collection produits : export.js
+
+- Import depuis produits.json: import.js
+
+## Prochaines améliorations
+
+- Gestion des avis clients dans la base MongoDB.
+
+- Passage de Stripe en mode production.
+
+- Autres évolutions prévues côté frontend.
