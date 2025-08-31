@@ -1,10 +1,14 @@
 const express = require('express');
 const router = express.Router();
 const Galerie = require('../models/Galerie');
+const {
+  verifierToken,
+  verifierAdmin,
+} = require('../middleware/authMiddleware');
 
 // POST : Ajouter une galerie avec plusieurs liens
-router.post('/', async (req, res) => {
-  const { videos } = req.body; // `videos` doit être un tableau de strings
+router.post('/', verifierToken, verifierAdmin, async (req, res) => {
+  const { videos } = req.body;
   try {
     const nouvelleGalerie = new Galerie({ videos });
     const saved = await nouvelleGalerie.save();

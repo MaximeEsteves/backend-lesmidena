@@ -1,59 +1,66 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const dotenv = require('dotenv');
-dotenv.config();
+const webhookController = require('./controllers/webhookController');
+
+// --- CORS ---
 const corsOptions = {
-  //origin: 'https://localhost:3000',
-  origin: 'https://lesmidena.netlify.app',
+  origin: [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'https://lesmidena.netlify.app',
+  ],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
   credentials: true,
   optionsSuccessStatus: 204,
 };
+app.use(cors(corsOptions));
 
-// 1) Pour les webhooks, il faut récupérer le corps en RAW
-const webhookController = require('./controllers/webhookController');
-const rechercheRoutes = require('./routes/recherche');
-
+// --- Webhook Stripe avant express.json / urlencoded ---
 app.post(
   '/api/payment/webhook',
-  express.raw({ type: 'application/json' }),
+  express.raw({ type: 'application/json' }), // ✅ nécessaire pour Stripe
   webhookController.handleStripeWebhook
 );
 
-// 2) Puis le reste des middlewares normaux
-app.use(cors(corsOptions));
+// --- Middlewares pour le reste des routes ---
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// 3) Vos routes existantes
+// --- Routes API ---
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/produits', require('./routes/produits'));
 app.use('/api/payment', require('./routes/payment'));
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use('/api/galerie', require('./routes/galerie'));
-app.use('/api/recherche', rechercheRoutes);
+app.use('/api/recherche', require('./routes/recherche'));
+app.use('/api/avis', require('./routes/avis'));
 
-// 4) Frontend static et fallback
+// --- Fichiers statiques / uploads ---
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(express.static(path.join(__dirname, '../FrontEnd')));
+
+// --- Pages spécifiques ---
 app.get('/produit/:ref', (req, res) => {
   res.sendFile(path.join(__dirname, '../FrontEnd/pages/produit/produit.html'));
 });
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../FrontEnd/index.html'));
+
+// --- Fallback frontend pour pages valides ---
+app.use((req, res, next) => {
+  res.status(404).sendFile(path.join(__dirname, '../FrontEnd/error.html'));
 });
 
-// 5) Connexion MongoDB, lancement du serveur…
+// --- Connexion MongoDB ---
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => console.log('✅ Connecté à MongoDB'))
   .catch((err) => console.error('❌ Erreur MongoDB :', err));
 
+// --- Lancement serveur ---
 const PORT = process.env.PORT || 3000;
 const HOST = '0.0.0.0';
-
 app.listen(PORT, HOST, () => {
   console.log(`🚀 Serveur lancé sur ${HOST}:${PORT}`);
 });
