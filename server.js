@@ -37,6 +37,8 @@ app.use('/api/payment', require('./routes/payment'));
 app.use('/api/galerie', require('./routes/galerie'));
 app.use('/api/recherche', require('./routes/recherche'));
 app.use('/api/avis', require('./routes/avis'));
+app.use('/api/order', require('./routes/order'));
+app.use('/api/order/export', require('./routes/order'));
 
 // --- Fichiers statiques / uploads ---
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));

@@ -67,7 +67,18 @@ exports.createCheckoutSession = async (req, res) => {
     }
 
     // Stocker les lignes en metadata pour le webhook
-    const produitsJSON = JSON.stringify(lignes);
+    // Reconstruire les lignes complètes avec reference et categorie
+    const produitsAvecMeta = lignes.map((l) => {
+      const produit = produitsMap.get(l.id);
+      return {
+        id: l.id,
+        nom: produit.nom,
+        reference: produit.reference,
+        categorie: produit.categorie,
+        quantite: l.quantite,
+        prixUnitaire: produit.prix,
+      };
+    });
 
     // Création de la session Stripe
     const session = await stripe.checkout.sessions.create({
@@ -81,7 +92,7 @@ exports.createCheckoutSession = async (req, res) => {
         cp: customer.cp,
         email: customer.email,
         telephone: customer.telephone,
-        products: produitsJSON,
+        products: JSON.stringify(produitsAvecMeta),
       },
       success_url: `${process.env.FRONTEND_URL}/pages/payment/success.html`,
       cancel_url: `${process.env.FRONTEND_URL}/pages/payment/cancel.html`,

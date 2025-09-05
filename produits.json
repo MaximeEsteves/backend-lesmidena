@@ -4,7 +4,9 @@
     "categorie": "Bavoir bandana",
     "imageCouverture": "uploads/bavoirs-couverture.webp",
     "nom": "Vert clair",
-    "image": ["uploads/bavoir_animaux.webp"],
+    "image": [
+      "uploads/bavoir_animaux.webp"
+    ],
     "description": "Ce bavoir bandana accompagne bébé du matin jusqu'au soir.",
     "titreDescription": "Bavoir bandana - L'accessoire indispensable pour bébé",
     "descriptionComplete": "<p>Ce bavoir bandana accompagne bébé du matin jusqu'au soir, offrant à la fois style et protection. Idéal pour absorber les bavouilles de nos petits anges tout en complétant leur tenue avec élégance.</p><p><br></p><p>Confectionné en tissu imprimé en coton et en éponge de bambou ultra-douce et absorbante, il est équipé d'un bouton-pression pratique.</p><p><br></p><p>Convient parfaitement aux bébés de 4 à 18 mois.</p><p>Lavable en machine à 30°.</p>",
@@ -13,7 +15,7 @@
     "reference": "A27442",
     "stock": 1,
     "createdAt": "2025-05-22T20:32:23.825Z",
-    "updatedAt": "2025-05-22T20:32:23.825Z",
+    "updatedAt": "2025-08-31T13:52:18.425Z",
     "__v": 0
   },
   {
@@ -21,7 +23,9 @@
     "categorie": "Bavoir bandana",
     "imageCouverture": "uploads/bavoirs-couverture.webp",
     "nom": "Rose",
-    "image": ["uploads/bavoir_fleuri_rose.webp"],
+    "image": [
+      "uploads/bavoir_fleuri_rose.webp"
+    ],
     "description": "Ce bavoir bandana accompagne bébé du matin jusqu'au soir.",
     "titreDescription": "Bavoir bandana - L'accessoire indispensable pour bébé",
     "descriptionComplete": "<p>Ce bavoir bandana accompagne bébé du matin jusqu'au soir, offrant à la fois style et protection. Idéal pour absorber les bavouilles de nos petits anges tout en complétant leur tenue avec élégance.</p><p><br></p><p>Confectionné en tissu imprimé en coton et en éponge de bambou ultra-douce et absorbante, il est équipé d'un bouton-pression pratique.</p><p><br></p><p>Convient parfaitement aux bébés de 4 à 18 mois.</p><p>Lavable en machine à 30°.</p>",
@@ -38,14 +42,16 @@
     "categorie": "Bavoir bandana",
     "imageCouverture": "uploads/bavoirs-couverture.webp",
     "nom": "Vert clair 2",
-    "image": ["uploads/bavoir_jungle_vert.webp"],
+    "image": [
+      "uploads/bavoir_jungle_vert.webp"
+    ],
     "description": "Ce bavoir bandana accompagne bébé du matin jusqu'au soir.",
     "titreDescription": "Bavoir bandana - L'accessoire indispensable pour bébé",
     "descriptionComplete": "<p>Ce bavoir bandana accompagne bébé du matin jusqu'au soir, offrant à la fois style et protection. Idéal pour absorber les bavouilles de nos petits anges tout en complétant leur tenue avec élégance.</p><p><br></p><p>Confectionné en tissu imprimé en coton et en éponge de bambou ultra-douce et absorbante, il est équipé d'un bouton-pression pratique.</p><p><br></p><p>Convient parfaitement aux bébés de 4 à 18 mois.</p><p>Lavable en machine à 30°.</p>",
     "materiaux": "Tissu en coton, éponge de bambou, bouton-pression.",
     "prix": 6.99,
     "reference": "A27445",
-    "stock": 0,
+    "stock": 1,
     "createdAt": "2025-05-22T20:32:23.825Z",
     "updatedAt": "2025-05-22T20:32:23.825Z",
     "__v": 0
@@ -55,7 +61,9 @@
     "categorie": "Bavoir bandana",
     "imageCouverture": "uploads/bavoirs-couverture.webp",
     "nom": "Vert foncé",
-    "image": ["uploads/bavoir_dinosaure.webp"],
+    "image": [
+      "uploads/bavoir_dinosaure.webp"
+    ],
     "description": "Ce bavoir bandana accompagne bébé du matin jusqu'au soir.",
     "titreDescription": "Bavoir bandana - L'accessoire indispensable pour bébé",
     "descriptionComplete": "<p>Ce bavoir bandana accompagne bébé du matin jusqu'au soir, offrant à la fois style et protection. Idéal pour absorber les bavouilles de nos petits anges tout en complétant leur tenue avec élégance.</p><p><br></p><p>Confectionné en tissu imprimé en coton et en éponge de bambou ultra-douce et absorbante, il est équipé d'un bouton-pression pratique.</p><p><br></p><p>Convient parfaitement aux bébés de 4 à 18 mois.</p><p>Lavable en machine à 30°.</p>",
@@ -72,7 +80,9 @@
     "categorie": "Bavoir bandana",
     "imageCouverture": "uploads/bavoirs-couverture.webp",
     "nom": "Bleu clair",
-    "image": ["uploads/bavoir_marin.webp"],
+    "image": [
+      "uploads/bavoir_marin.webp"
+    ],
     "description": "Ce bavoir bandana accompagne bébé du matin jusqu'au soir.",
     "titreDescription": "Bavoir bandana - L'accessoire indispensable pour bébé",
     "descriptionComplete": "<p>Ce bavoir bandana accompagne bébé du matin jusqu'au soir, offrant à la fois style et protection. Idéal pour absorber les bavouilles de nos petits anges tout en complétant leur tenue avec élégance.</p><p><br></p><p>Confectionné en tissu imprimé en coton et en éponge de bambou ultra-douce et absorbante, il est équipé d'un bouton-pression pratique.</p><p><br></p><p>Convient parfaitement aux bébés de 4 à 18 mois.</p><p>Lavable en machine à 30°.</p>",
@@ -89,7 +99,9 @@
     "categorie": "Bavoir bandana",
     "imageCouverture": "uploads/bavoirs-couverture.webp",
     "nom": "Ecru",
-    "image": ["uploads/bavoir_oursons.webp"],
+    "image": [
+      "uploads/bavoir_oursons.webp"
+    ],
     "description": "Ce bavoir bandana accompagne bébé du matin jusqu'au soir.",
     "titreDescription": "Bavoir bandana - L'accessoire indispensable pour bébé",
     "descriptionComplete": "<p>Ce bavoir bandana accompagne bébé du matin jusqu'au soir, offrant à la fois style et protection. Idéal pour absorber les bavouilles de nos petits anges tout en complétant leur tenue avec élégance.</p><p><br></p><p>Confectionné en tissu imprimé en coton et en éponge de bambou ultra-douce et absorbante, il est équipé d'un bouton-pression pratique.</p><p><br></p><p>Convient parfaitement aux bébés de 4 à 18 mois.</p><p>Lavable en machine à 30°.</p>",
@@ -106,7 +118,9 @@
     "categorie": "Lingettes",
     "imageCouverture": "uploads/lingettes-couverture.webp",
     "nom": "Rose/Vert",
-    "image": ["uploads/lingettes_fleuries_rose.webp"],
+    "image": [
+      "uploads/lingettes_fleuries_rose.webp"
+    ],
     "description": "Lingettes démaquillantes réutilisables - Lot de 8",
     "titreDescription": "Lingettes démaquillantes réutilisables - Lot de 8",
     "descriptionComplete": "Dites adieu aux cotons jetables et optez pour ces lingettes réutilisables, parfaites pour le démaquillage ou les soins du visage. Ni trop grandes, ni trop petites, elles offrent une taille idéale pour un usage quotidien.\n\nChaque lingette dispose d'une face en coton imprimé et d'une face en éponge de bambou ultra douce, délicate et agréable pour la peau.\n\nVendues par lot de 8 lingettes.\n\nLavables en machine à 30°.",
@@ -115,7 +129,7 @@
     "reference": "A36859A37459",
     "stock": 1,
     "createdAt": "2025-05-22T20:32:23.825Z",
-    "updatedAt": "2025-05-22T20:32:23.825Z",
+    "updatedAt": "2025-08-31T13:55:17.652Z",
     "__v": 0
   },
   {
@@ -123,7 +137,9 @@
     "categorie": "Lingettes",
     "imageCouverture": "uploads/lingettes-couverture.webp",
     "nom": "Rose/Jaune",
-    "image": ["uploads/lingettes_mode.webp"],
+    "image": [
+      "uploads/lingettes_mode.webp"
+    ],
     "description": "Lingettes démaquillantes réutilisables - Lot de 8",
     "titreDescription": "Lingettes démaquillantes réutilisables - Lot de 8",
     "descriptionComplete": "Dites adieu aux cotons jetables et optez pour ces lingettes réutilisables, parfaites pour le démaquillage ou les soins du visage. Ni trop grandes, ni trop petites, elles offrent une taille idéale pour un usage quotidien.\n\nChaque lingette dispose d'une face en coton imprimé et d'une face en éponge de bambou ultra douce, délicate et agréable pour la peau.\n\nVendues par lot de 8 lingettes.\n\nLavables en machine à 30°.",
@@ -140,7 +156,9 @@
     "categorie": "Lingettes",
     "imageCouverture": "uploads/lingettes-couverture.webp",
     "nom": "Ocre/Ecru",
-    "image": ["uploads/lingettes_jaune.webp"],
+    "image": [
+      "uploads/lingettes_jaune.webp"
+    ],
     "description": "Lingettes démaquillantes réutilisables - Lot de 8",
     "titreDescription": "Lingettes démaquillantes réutilisables - Lot de 8",
     "descriptionComplete": "Dites adieu aux cotons jetables et optez pour ces lingettes réutilisables, parfaites pour le démaquillage ou les soins du visage. Ni trop grandes, ni trop petites, elles offrent une taille idéale pour un usage quotidien.\n\nChaque lingette dispose d'une face en coton imprimé et d'une face en éponge de bambou ultra douce, délicate et agréable pour la peau.\n\nVendues par lot de 8 lingettes.\n\nLavables en machine à 30°.",
@@ -157,7 +175,9 @@
     "categorie": "Lingettes",
     "imageCouverture": "uploads/lingettes-couverture.webp",
     "nom": "Ocre/Ecru 2",
-    "image": ["uploads/lingette_feuillage_jaune_rouge.webp"],
+    "image": [
+      "uploads/lingette_feuillage_jaune_rouge.webp"
+    ],
     "description": "Lingettes démaquillantes réutilisables - Lot de 8",
     "titreDescription": "Lingettes démaquillantes réutilisables - Lot de 8",
     "descriptionComplete": "Dites adieu aux cotons jetables et optez pour ces lingettes réutilisables, parfaites pour le démaquillage ou les soins du visage. Ni trop grandes, ni trop petites, elles offrent une taille idéale pour un usage quotidien.\n\nChaque lingette dispose d'une face en coton imprimé et d'une face en éponge de bambou ultra douce, délicate et agréable pour la peau.\n\nVendues par lot de 8 lingettes.\n\nLavables en machine à 30°.",
@@ -174,7 +194,9 @@
     "categorie": "Lingettes",
     "imageCouverture": "uploads/lingettes-couverture.webp",
     "nom": "Ecru",
-    "image": ["uploads/lingettes_marguerite.webp"],
+    "image": [
+      "uploads/lingettes_marguerite.webp"
+    ],
     "description": "Lingettes démaquillantes réutilisables - Lot de 8",
     "titreDescription": "Lingettes démaquillantes réutilisables - Lot de 8",
     "descriptionComplete": "Dites adieu aux cotons jetables et optez pour ces lingettes réutilisables, parfaites pour le démaquillage ou les soins du visage. Ni trop grandes, ni trop petites, elles offrent une taille idéale pour un usage quotidien.\n\nChaque lingette dispose d'une face en coton imprimé et d'une face en éponge de bambou ultra douce, délicate et agréable pour la peau.\n\nVendues par lot de 8 lingettes.\n\nLavables en machine à 30°.",
@@ -191,7 +213,9 @@
     "categorie": "Lingettes",
     "imageCouverture": "uploads/lingettes-couverture.webp",
     "nom": "Jaune",
-    "image": ["uploads/lingette_fleurs_multicolores.webp"],
+    "image": [
+      "uploads/lingette_fleurs_multicolores.webp"
+    ],
     "description": "Lingettes démaquillantes réutilisables - Lot de 8",
     "titreDescription": "Lingettes démaquillantes réutilisables - Lot de 8",
     "descriptionComplete": "Dites adieu aux cotons jetables et optez pour ces lingettes réutilisables, parfaites pour le démaquillage ou les soins du visage. Ni trop grandes, ni trop petites, elles offrent une taille idéale pour un usage quotidien.\n\nChaque lingette dispose d'une face en coton imprimé et d'une face en éponge de bambou ultra douce, délicate et agréable pour la peau.\n\nVendues par lot de 8 lingettes.\n\nLavables en machine à 30°.",
@@ -208,7 +232,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Etoile",
-    "image": ["uploads/etui_lunette_etoiles.webp"],
+    "image": [
+      "uploads/etui_lunette_etoiles.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -217,7 +243,7 @@
     "reference": "A10122",
     "stock": 1,
     "createdAt": "2025-05-22T20:32:23.825Z",
-    "updatedAt": "2025-05-22T20:32:23.825Z",
+    "updatedAt": "2025-08-31T16:15:02.415Z",
     "__v": 0
   },
   {
@@ -225,7 +251,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Jean clair",
-    "image": ["uploads/etui_lunette_jean_fleur.webp"],
+    "image": [
+      "uploads/etui_lunette_jean_fleur.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -242,7 +270,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Jean noir",
-    "image": ["uploads/etui_lunette_jean_noir.webp"],
+    "image": [
+      "uploads/etui_lunette_jean_noir.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -259,7 +289,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Jean noir 2",
-    "image": ["uploads/etui_lunette_jean_noir_mosaique.webp"],
+    "image": [
+      "uploads/etui_lunette_jean_noir_mosaique.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -276,7 +308,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Marguerite",
-    "image": ["uploads/etui_lunette_margueritte.webp"],
+    "image": [
+      "uploads/etui_lunette_margueritte.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -293,7 +327,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Etoile 2",
-    "image": ["uploads/etui_lunette_margueritte.webp"],
+    "image": [
+      "uploads/etui_lunette_margueritte.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -310,7 +346,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Bleu 2",
-    "image": ["uploads/etui_lunette_similicuir_bleu1.webp"],
+    "image": [
+      "uploads/etui_lunette_similicuir_bleu1.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -327,7 +365,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Bleu",
-    "image": ["uploads/etui_lunette_similicuir_bleu2.webp"],
+    "image": [
+      "uploads/etui_lunette_similicuir_bleu2.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -344,7 +384,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Rouge 2",
-    "image": ["uploads/etui_lunette_similicuir_feuille.webp"],
+    "image": [
+      "uploads/etui_lunette_similicuir_feuille.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -361,7 +403,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Rouge",
-    "image": ["uploads/etui_lunette_similicuir_fleur.webp"],
+    "image": [
+      "uploads/etui_lunette_similicuir_fleur.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -378,7 +422,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Marron 3",
-    "image": ["uploads/etui_lunette_similicuir_marron1.webp"],
+    "image": [
+      "uploads/etui_lunette_similicuir_marron1.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -395,7 +441,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Marron",
-    "image": ["uploads/etui_lunette_similicuir_marron2.webp"],
+    "image": [
+      "uploads/etui_lunette_similicuir_marron2.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -412,7 +460,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Marron 2",
-    "image": ["uploads/etui_lunette_similicuir_marron3.webp"],
+    "image": [
+      "uploads/etui_lunette_similicuir_marron3.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui\n\n",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -429,7 +479,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Coccinelle",
-    "image": ["uploads/etui_lunette_2cheveaux.webp"],
+    "image": [
+      "uploads/etui_lunette_2cheveaux.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -446,7 +498,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Mosaique",
-    "image": ["uploads/etui_lunette_mosaique.webp"],
+    "image": [
+      "uploads/etui_lunette_mosaique.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -463,7 +517,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Van VW",
-    "image": ["uploads/etui_lunette_van.webp"],
+    "image": [
+      "uploads/etui_lunette_van.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -480,7 +536,9 @@
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Van VW",
-    "image": ["uploads/etui_lunette_van.webp"],
+    "image": [
+      "uploads/etui_lunette_van.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -493,11 +551,13 @@
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bg",
+    "_id": "68b446165e7e893948907121",
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Jean fleur",
-    "image": ["uploads/etui_lunette_jean_fleur_bleue.webp"],
+    "image": [
+      "uploads/etui_lunette_jean_fleur_bleue.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -510,11 +570,13 @@
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bh",
+    "_id": "68b446165e7e893948907122",
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Jean fleur",
-    "image": ["uploads/etui_lunette_jean_fleur_bleue.webp"],
+    "image": [
+      "uploads/etui_lunette_jean_fleur_bleue.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -527,11 +589,13 @@
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bi",
+    "_id": "68b446165e7e893948907123",
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Jean fleur",
-    "image": ["uploads/etui_lunette_jean_fleurs.webp"],
+    "image": [
+      "uploads/etui_lunette_jean_fleurs.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -544,11 +608,13 @@
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bj",
+    "_id": "68b446165e7e893948907124",
     "categorie": "Étui à lunettes",
     "imageCouverture": "uploads/etuis-couverture.webp",
     "nom": "Jean fleur",
-    "image": ["uploads/etui_lunette_jean_fleurs-rouge.webp"],
+    "image": [
+      "uploads/etui_lunette_jean_fleurs-rouge.webp"
+    ],
     "description": "Étui à lunettes souple - Pour elle ou pour lui",
     "titreDescription": "Étui à lunettes souple - Pour elle ou pour lui",
     "descriptionComplete": "Cet étui à lunettes, à la fois pratique et élégant, est confectionné avec soin en tissu extérieur au choix : coton, jean ou simili cuir. L'intérieur est doublé de coton ou de lin pour protéger vos lunettes avec douceur. Il se ferme facilement grâce à un bouton-pression en plastique.\n\nDimensions : 9 x 19 cm",
@@ -561,28 +627,32 @@
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bk",
+    "_id": "68b446165e7e893948907125",
     "categorie": "Sac cabas",
     "imageCouverture": "uploads/sac-couverture.webp",
     "nom": "Vert",
-    "image": ["uploads/sac_vert_blanc.webp"],
+    "image": [
+      "uploads/sac_vert_blanc.webp"
+    ],
     "description": "Sac cabas carré - Grande capacité",
     "titreDescription": "Sac cabas carré - Grande capacité",
-    "descriptionComplete": "Ce sac cabas est confectionné en tissu épais et résistant de style marinière en coton pour l'extérieur, et en lin doux pour l'intérieur.\n\n Il est doté d'une poche intérieure fermée par un bouton-pression en plastique et d'une attache en métal pour plus de praticité.\n\n Multi-usage, il est parfait pour vos courses, vos journées à la plage, le travail, les cours, et bien plus encore !\n\n Dimensions :\n\n Forme carrée : environ 28 cm de côté\n\n Poche intérieure :\n\n Longueur : environ 18 cm\n\n Hauteur : environ 18,5 cm\n\n Lavable en machine à 30°.",
+    "descriptionComplete": "<p>Ce sac cabas est confectionné en tissu épais et résistant de style marinière en coton pour l'extérieur, et en lin doux pour l'intérieur. Il est doté d'une poche intérieure fermée par un bouton-pression en plastique et d'une attache en métal pour plus de praticité. Multi-usage, il est parfait pour vos courses, vos journées à la plage, le travail, les cours, et bien plus encore ! Dimensions : Forme carrée : environ 28 cm de côté Poche intérieure : Longueur : environ 18 cm Hauteur : environ 18,5 cm Lavable en machine à 30°.</p>",
     "materiaux": "Lin, bouton-pression en plastique, tissu marinière, tissu coton.",
     "prix": 29.99,
     "reference": "A47861",
-    "stock": 1,
+    "stock": 2,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-09-01T09:41:43.254Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bl",
+    "_id": "68b446165e7e893948907126",
     "categorie": "Sac cabas",
     "imageCouverture": "uploads/sac-couverture.webp",
     "nom": "Bleu",
-    "image": ["uploads/sac_bleu_blanc.webp"],
+    "image": [
+      "uploads/sac_bleu_blanc.webp"
+    ],
     "description": "Sac cabas carré - Grande capacité",
     "titreDescription": "Sac cabas carré - Grande capacité",
     "descriptionComplete": "Ce sac cabas est confectionné en tissu épais et résistant de style marinière en coton pour l'extérieur, et en lin doux pour l'intérieur.\n\n Il est doté d'une poche intérieure fermée par un bouton-pression en plastique et d'une attache en métal pour plus de praticité.\n\n Multi-usage, il est parfait pour vos courses, vos journées à la plage, le travail, les cours, et bien plus encore !\n\n Dimensions :\n\n Forme carrée : environ 28 cm de côté\n\n Poche intérieure :\n\n Longueur : environ 18 cm\n\n Hauteur : environ 18,5 cm\n\n Lavable en machine à 30°.",
@@ -591,15 +661,17 @@
     "reference": "A47879",
     "stock": 1,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-08-31T15:51:22.076Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bm",
+    "_id": "68b446165e7e893948907127",
     "categorie": "Sac cabas",
     "imageCouverture": "uploads/sac-couverture.webp",
     "nom": "Van",
-    "image": ["uploads/sac_van.webp"],
+    "image": [
+      "uploads/sac_van.webp"
+    ],
     "description": "Sac cabas carré - Grande capacité",
     "titreDescription": "Sac cabas carré - Grande capacité",
     "descriptionComplete": "Ce sac cabas est confectionné en tissu épais et résistant de style marinière en coton pour l'extérieur, et en lin doux pour l'intérieur.\n\n Il est doté d'une poche intérieure fermée par un bouton-pression en plastique et d'une attache en métal pour plus de praticité.\n\n Multi-usage, il est parfait pour vos courses, vos journées à la plage, le travail, les cours, et bien plus encore !\n\n Dimensions :\n\n Forme carrée : environ 28 cm de côté\n\n Poche intérieure :\n\n Longueur : environ 18 cm\n\n Hauteur : environ 18,5 cm\n\n Lavable en machine à 30°.",
@@ -608,32 +680,36 @@
     "reference": "A4XX31",
     "stock": 1,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-08-31T15:50:22.172Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bn",
+    "_id": "68b446165e7e893948907128",
     "categorie": "Sac cabas",
     "imageCouverture": "uploads/sac-couverture.webp",
     "nom": "Rouge Lin",
-    "image": ["uploads/sac_beige_rouge.webp"],
+    "image": [
+      "uploads/sac_beige_rouge.webp"
+    ],
     "description": "Sac cabas carré - Grande capacité",
     "titreDescription": "Sac cabas carré - Grande capacité",
-    "descriptionComplete": "Ce sac cabas est confectionné en tissu épais et résistant de style marinière en coton pour l'extérieur, et en lin doux pour l'intérieur.\n\n Il est doté d'une poche intérieure fermée par un bouton-pression en plastique et d'une attache en métal pour plus de praticité.\n\n Multi-usage, il est parfait pour vos courses, vos journées à la plage, le travail, les cours, et bien plus encore !\n\n Dimensions :\n\n Forme carrée : environ 28 cm de côté\n\n Poche intérieure :\n\n Longueur : environ 18 cm\n\n Hauteur : environ 18,5 cm\n\n Lavable en machine à 30°.",
+    "descriptionComplete": "<p>Ce sac cabas est confectionné en tissu épais et résistant de style marinière en coton pour l'extérieur, et en lin doux pour l'intérieur. Il est doté d'une poche intérieure fermée par un bouton-pression en plastique et d'une attache en métal pour plus de praticité. Multi-usage, il est parfait pour vos courses, vos journées à la plage, le travail, les cours, et bien plus encore ! Dimensions : Forme carrée : environ 28 cm de côté Poche intérieure : Longueur : environ 18 cm Hauteur : environ 18,5 cm Lavable en machine à 30°.</p>",
     "materiaux": "Lin, bouton-pression en plastique, tissu marinière, tissu coton.",
     "prix": 39.99,
     "reference": "A46463",
     "stock": 1,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-09-01T09:41:07.959Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bo",
+    "_id": "68b446165e7e893948907129",
     "categorie": "Sac cabas",
     "imageCouverture": "uploads/sac-couverture.webp",
     "nom": "Marron",
-    "image": ["uploads/sac_marron-clair.webp"],
+    "image": [
+      "uploads/sac_marron-clair.webp"
+    ],
     "description": "Sac cabas carré - Grande capacité",
     "titreDescription": "Sac cabas carré - Grande capacité",
     "descriptionComplete": "Ce sac cabas est confectionné en tissu épais et résistant de style marinière en coton pour l'extérieur, et en lin doux pour l'intérieur.\n\n Il est doté d'une poche intérieure fermée par un bouton-pression en plastique et d'une attache en métal pour plus de praticité.\n\n Multi-usage, il est parfait pour vos courses, vos journées à la plage, le travail, les cours, et bien plus encore !\n\n Dimensions :\n\n Forme carrée : environ 28 cm de côté\n\n Poche intérieure :\n\n Longueur : environ 18 cm\n\n Hauteur : environ 18,5 cm\n\n Lavable en machine à 30°.",
@@ -642,15 +718,17 @@
     "reference": "A47880",
     "stock": 1,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-08-31T15:32:31.347Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bp",
+    "_id": "68b446165e7e89394890712a",
     "categorie": "Sacoche bandoulière",
     "imageCouverture": "uploads/couverture-pochette-telephone.webp",
     "nom": "Marguerite",
-    "image": ["uploads/pochette_margueritte.webp"],
+    "image": [
+      "uploads/pochette_margueritte.webp"
+    ],
     "description": "Sacoche bandoulière - Pratique et légère",
     "titreDescription": "Sacoche bandoulière - Pratique et légère",
     "descriptionComplete": "Cette sacoche bandoulière est idéale pour ranger tous vos essentiels : papiers d'identité, espèces, écouteurs, téléphone, lunettes, et bien plus encore. Conçue pour être pratique et légère, elle dispose de 3 compartiments pour une organisation optimale. La sacoche se ferme facilement grâce à un bouton-pression en plastique.\n\n Dimensions : \n\n Lavable en machine à 30° pour un entretien facile.",
@@ -659,15 +737,17 @@
     "reference": "A55429",
     "stock": 1,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-08-31T16:03:33.351Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bq",
+    "_id": "68b446165e7e89394890712b",
     "categorie": "Sacoche bandoulière",
     "imageCouverture": "uploads/couverture-pochette-telephone.webp",
     "nom": "Van",
-    "image": ["uploads/pochette_van.webp"],
+    "image": [
+      "uploads/pochette_van.webp"
+    ],
     "description": "Sacoche bandoulière - Pratique et légère",
     "titreDescription": "Sacoche bandoulière - Pratique et légère",
     "descriptionComplete": "Cette sacoche bandoulière est idéale pour ranger tous vos essentiels : papiers d'identité, espèces, écouteurs, téléphone, lunettes, et bien plus encore. Conçue pour être pratique et légère, elle dispose de 3 compartiments pour une organisation optimale. La sacoche se ferme facilement grâce à un bouton-pression en plastique.\n\n Dimensions : \n\n Lavable en machine à 30° pour un entretien facile.",
@@ -680,11 +760,13 @@
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7br",
+    "_id": "68b446165e7e89394890712c",
     "categorie": "Sacoche bandoulière",
     "imageCouverture": "uploads/couverture-pochette-telephone.webp",
     "nom": "Coccinelle",
-    "image": ["uploads/pochette_voiture.webp"],
+    "image": [
+      "uploads/pochette_voiture.webp"
+    ],
     "description": "Sacoche bandoulière - Pratique et légère",
     "titreDescription": "Sacoche bandoulière - Pratique et légère",
     "descriptionComplete": "Cette sacoche bandoulière est idéale pour ranger tous vos essentiels : papiers d'identité, espèces, écouteurs, téléphone, lunettes, et bien plus encore. Conçue pour être pratique et légère, elle dispose de 3 compartiments pour une organisation optimale. La sacoche se ferme facilement grâce à un bouton-pression en plastique.\n\n Dimensions : \n\n Lavable en machine à 30° pour un entretien facile.",
@@ -697,71 +779,184 @@
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bs",
-    "categorie": "Kit de naissance 2-en-1",
+    "_id": "68b446165e7e89394890712d",
+    "categorie": "Kit de bain",
     "imageCouverture": "uploads/kit-couverture.webp",
     "nom": "Dinosaure",
-    "image": ["uploads/kit2-dinosaure.webp", "uploads/kit-dinosaure.webp"],
-    "description": "Kit de naissance 2-en-1 : Cape de bain, gant et bavoir assortis",
-    "titreDescription": "Kit de naissance 2-en-1 : Cape de bain, gant et bavoir assortis",
-    "descriptionComplete": "Offrez à votre bébé un moment de douceur et de confort dès la sortie du bain grâce à notre kit 2-en-1, composé d’une cape de bain et d’un gant. Confectionnés en éponge de bambou ultra-douce et absorbante, ces accessoires sont parfaits pour accompagner votre petit ange à la sortie du bain.\n\n Caractéristiques du kit :\n\n Cape de bain : En éponge de bambou, douce et ultra-absorbante, idéale pour garder bébé bien au chaud après le bain.\n\n Gant de toilette : Parfait pour nettoyer en douceur la peau délicate de votre bébé. Cape de bain : 70 x 70 cm \n\n Gant de toilette : 10 x 20 cm\n\n Entretien facile : Lavable en machine à 30° pour un entretien sans souci. \n\n Convient aux bébés de jusqu'à 18 mois.",
+    "image": [
+      "uploads/kit2-dinosaure.webp",
+      "uploads/kit-dinosaure.webp"
+    ],
+    "description": "Kit de bain 2 en 1 : Cape de bain et gant assortis",
+    "titreDescription": "Kit de bain : Cape de bain et gant",
+    "descriptionComplete": "<p>Offrez à votre bébé un moment de douceur et de confort dès la sortie du bain grâce à notre kit 2-en-1, composé d’une cape de bain et d’un gant. Confectionnés en éponge de bambou ultra-douce et absorbante, ces accessoires sont parfaits pour accompagner votre petit ange à la sortie du bain. Caractéristiques du kit : Cape de bain : En éponge de bambou, douce et ultra-absorbante, idéale pour garder bébé bien au chaud après le bain. Gant de toilette : Parfait pour nettoyer en douceur la peau délicate de votre bébé. Cape de bain : 70 x 70 cm Gant de toilette : 10 x 20 cm Entretien facile : Lavable en machine à 30° pour un entretien sans souci. Convient aux bébés de jusqu'à 18 mois.</p>",
     "materiaux": "Tissu imprimé en coton et éponge de bambou, choisis pour leur douceur et leur capacité d'absorption exceptionnelle.",
     "prix": 29.99,
-    "reference": "A6XX39",
-    "stock": 1,
+    "reference": "A67339",
+    "stock": 0,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-09-01T09:39:04.219Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bt",
-    "categorie": "Kit de naissance 2-en-1",
+    "_id": "68b446165e7e89394890712e",
+    "categorie": "Kit de bain",
     "imageCouverture": "uploads/kit-couverture.webp",
     "nom": "Licorne",
-    "image": ["uploads/kit2-licorne.webp", "uploads/kit-licorne.webp"],
-    "description": "Kit de naissance 2-en-1 : Cape de bain, gant et bavoir assortis",
-    "titreDescription": "Kit de naissance 2-en-1 : Cape de bain, gant et bavoir assortis",
-    "descriptionComplete": "Offrez à votre bébé un moment de douceur et de confort dès la sortie du bain grâce à notre kit 2-en-1, composé d’une cape de bain et d’un gant. Confectionnés en éponge de bambou ultra-douce et absorbante, ces accessoires sont parfaits pour accompagner votre petit ange à la sortie du bain.\n\n Caractéristiques du kit :\n\n Cape de bain : En éponge de bambou, douce et ultra-absorbante, idéale pour garder bébé bien au chaud après le bain.\n\n Gant de toilette : Parfait pour nettoyer en douceur la peau délicate de votre bébé. Cape de bain : 70 x 70 cm \n\n Gant de toilette : 10 x 20 cm\n\n Entretien facile : Lavable en machine à 30° pour un entretien sans souci. \n\n Convient aux bébés de jusqu'à 18 mois.",
+    "image": [
+      "uploads/kit2-licorne.webp",
+      "uploads/kit-licorne.webp"
+    ],
+    "description": "Kit de bain 2 en 1 : Cape de bain et gant assortis",
+    "titreDescription": "Kit de bain : Cape de bain et gant",
+    "descriptionComplete": "<p>Offrez à votre bébé un moment de douceur et de confort dès la sortie du bain grâce à notre kit 2-en-1, composé d’une cape de bain et d’un gant. Confectionnés en éponge de bambou ultra-douce et absorbante, ces accessoires sont parfaits pour accompagner votre petit ange à la sortie du bain. Caractéristiques du kit : Cape de bain : En éponge de bambou, douce et ultra-absorbante, idéale pour garder bébé bien au chaud après le bain. Gant de toilette : Parfait pour nettoyer en douceur la peau délicate de votre bébé. Cape de bain : 70 x 70 cm Gant de toilette : 10 x 20 cm Entretien facile : Lavable en machine à 30° pour un entretien sans souci. Convient aux bébés de jusqu'à 18 mois.</p>",
     "materiaux": "Tissu imprimé en coton et éponge de bambou, choisis pour leur douceur et leur capacité d'absorption exceptionnelle.",
     "prix": 29.99,
-    "reference": "A6XXXX",
+    "reference": "A68168",
     "stock": 1,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-09-01T08:44:20.300Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bu",
-    "categorie": "Kit de naissance 3-en-1",
+    "_id": "68b446165e7e89394890712f",
+    "categorie": "Kit de naissance",
     "imageCouverture": "uploads/kit-couverture.webp",
     "nom": "Licorne",
-    "image": ["uploads/kit3-licorne.webp", "uploads/kit-licorne.webp"],
+    "image": [
+      "uploads/kit3-licorne.webp",
+      "uploads/kit-licorne.webp"
+    ],
     "description": "Kit de naissance 3-en-1 : Cape de bain, gant et bavoir assortis",
-    "titreDescription": "Kit de naissance 3-en-1 : Cape de bain, gant et bavoir assortis",
-    "descriptionComplete": "Offrez à votre bébé un moment de douceur et de confort dès la sortie du bain grâce à notre kit 3-en-1, composé d’une cape de bain, d’un gant et d'un bavoir. Confectionnés en éponge de bambou ultra-douce et absorbante, ces accessoires sont parfaits pour accompagner votre petit ange à la sortie du bain.\n\n Caractéristiques du kit :\n\n Cape de bain : En éponge de bambou, douce et ultra-absorbante, idéale pour garder bébé bien au chaud après le bain.\n\n Gant de toilette : Parfait pour nettoyer en douceur la peau délicate de votre bébé.\n\n Bavoir bandana : Confectionné en tissu absorbant, il protège les vêtements de bébé tout en ajoutant une touche de style. Facile à attacher grâce à ses boutons-pression ajustables.\n\n Matériaux de qualité :\n\n Dimensions :\n\n Cape de bain : 70 x 70 cm\n\n Gant de toilette : 10 x 20 cm\n\n Bavoir bandana : 20 x 20cm\n\n Entretien facile : Lavable en machine à 30° pour un entretien sans souci.\n\n Convient aux bébés de jusqu'à 18 mois.",
+    "titreDescription": "Kit de naissance : Cape de bain, gant et bavoir assortis",
+    "descriptionComplete": "<p>Offrez à votre bébé un moment de douceur et de confort dès la sortie du bain grâce à notre kit 3-en-1, composé d’une cape de bain, d’un gant et d'un bavoir. Confectionnés en éponge de bambou ultra-douce et absorbante, ces accessoires sont parfaits pour accompagner votre petit ange à la sortie du bain. Caractéristiques du kit : Cape de bain : En éponge de bambou, douce et ultra-absorbante, idéale pour garder bébé bien au chaud après le bain. Gant de toilette : Parfait pour nettoyer en douceur la peau délicate de votre bébé. Bavoir bandana : Confectionné en tissu absorbant, il protège les vêtements de bébé tout en ajoutant une touche de style. Facile à attacher grâce à ses boutons-pression ajustables. Matériaux de qualité : Dimensions : Cape de bain : 70 x 70 cm Gant de toilette : 10 x 20 cm Bavoir bandana : 20 x 20cm Entretien facile : Lavable en machine à 30° pour un entretien sans souci. Convient aux bébés de jusqu'à 18 mois.</p>",
     "materiaux": "Tissu imprimé en coton et éponge de bambou, choisis pour leur douceur et leur capacité d'absorption exceptionnelle.",
     "prix": 34.99,
-    "reference": "A6XX25",
+    "reference": "A78168",
     "stock": 1,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-09-01T08:45:26.679Z",
     "__v": 0
   },
   {
-    "_id": "6830309ca6180cd6bf3ed7bv",
-    "categorie": "Kit de naissance 3-en-1",
+    "_id": "68b446165e7e893948907130",
+    "categorie": "Kit de naissance",
     "imageCouverture": "uploads/kit-couverture.webp",
     "nom": "Dinosaure",
-    "image": ["uploads/kit3-dinosaure.webp", "uploads/kit-dinosaure.webp"],
+    "image": [
+      "uploads/kit3-dinosaure.webp",
+      "uploads/kit-dinosaure.webp"
+    ],
     "description": "Kit de naissance 3-en-1 : Cape de bain, gant et bavoir assortis",
-    "titreDescription": "Kit de naissance 3-en-1 : Cape de bain, gant et bavoir assortis",
-    "descriptionComplete": "Offrez à votre bébé un moment de douceur et de confort dès la sortie du bain grâce à notre kit 3-en-1, composé d’une cape de bain, d’un gant et d'un bavoir. Confectionnés en éponge de bambou ultra-douce et absorbante, ces accessoires sont parfaits pour accompagner votre petit ange à la sortie du bain.\n\n Caractéristiques du kit :\n\n Cape de bain : En éponge de bambou, douce et ultra-absorbante, idéale pour garder bébé bien au chaud après le bain.\n\n Gant de toilette : Parfait pour nettoyer en douceur la peau délicate de votre bébé.\n\n Bavoir bandana : Confectionné en tissu absorbant, il protège les vêtements de bébé tout en ajoutant une touche de style. Facile à attacher grâce à ses boutons-pression ajustables.\n\n Matériaux de qualité :\n\n Dimensions :\n\n Cape de bain : 70 x 70 cm\n\n Gant de toilette : 10 x 20 cm\n\n Bavoir bandana : 20 x 20cm\n\n Entretien facile : Lavable en machine à 30° pour un entretien sans souci.\n\n Convient aux bébés de jusqu'à 18 mois.",
+    "titreDescription": "Kit de naissance : Cape de bain, gant et bavoir assortis",
+    "descriptionComplete": "<p>Offrez à votre bébé un moment de douceur et de confort dès la sortie du bain grâce à notre kit 3-en-1, composé d’une cape de bain, d’un gant et d'un bavoir. Confectionnés en éponge de bambou ultra-douce et absorbante, ces accessoires sont parfaits pour accompagner votre petit ange à la sortie du bain. Caractéristiques du kit : Cape de bain : En éponge de bambou, douce et ultra-absorbante, idéale pour garder bébé bien au chaud après le bain. Gant de toilette : Parfait pour nettoyer en douceur la peau délicate de votre bébé. Bavoir bandana : Confectionné en tissu absorbant, il protège les vêtements de bébé tout en ajoutant une touche de style. Facile à attacher grâce à ses boutons-pression ajustables. Matériaux de qualité : Dimensions : Cape de bain : 70 x 70 cm Gant de toilette : 10 x 20 cm Bavoir bandana : 20 x 20cm Entretien facile : Lavable en machine à 30° pour un entretien sans souci. Convient aux bébés de jusqu'à 18 mois.</p>",
     "materiaux": "Tissu imprimé en coton et éponge de bambou, choisis pour leur douceur et leur capacité d'absorption exceptionnelle.",
     "prix": 34.99,
-    "reference": "A6XX25",
-    "stock": 1,
+    "reference": "A77339",
+    "stock": 0,
     "createdAt": "2025-05-23T08:23:56.470Z",
-    "updatedAt": "2025-05-23T08:23:56.470Z",
+    "updatedAt": "2025-09-01T09:39:12.292Z",
     "__v": 0
+  },
+  {
+    "_id": "68b448a115e727c6369db14d",
+    "categorie": "Sac banane",
+    "imageCouverture": "uploads/sac_banane_blanc_b10203_8.webp",
+    "nom": "Écru",
+    "image": [
+      "uploads/sac_banane_blanc_b10203_6.webp",
+      "uploads/sac_banane_blanc_a9xx82_9.webp"
+    ],
+    "description": "Cette banane en velours apporte style et confort à toutes vos sorties.",
+    "titreDescription": "Sac banane -Apporte style et confort à toutes vos sorties.",
+    "descriptionComplete": "<p>Alliant chic et praticité, cette banane est l’accessoire parfait pour vos journées actives ou vos sorties décontractées. Son tissu doux et raffiné offre une touche de luxe tandis que sa conception fonctionnelle vous permet de garder l’essentiel à portée de main. Avec sa sangle ajustable et son design tendance, elle s’adapte à toutes les morphologies et styles. Disponible dans plusieurs couleurs, elle ajoute une note élégante et originale à votre tenue.</p>",
+    "materiaux": "Velour, tissu en coton, bouton-pression.",
+    "prix": 24.99,
+    "reference": "A98582",
+    "stock": 1,
+    "createdAt": "2025-08-31T13:05:37.838Z",
+    "updatedAt": "2025-09-01T10:21:45.614Z",
+    "__v": 9
+  },
+  {
+    "_id": "68b4493c15e727c6369db151",
+    "categorie": "Sac banane",
+    "imageCouverture": "uploads/sac_banane_rose_b10478_0.webp",
+    "nom": "Rose",
+    "image": [
+      "uploads/sac_banane_rose_b10478_1.webp",
+      "uploads/sac_banane_rose_b10478_2.webp",
+      "uploads/sac_banane_rose_b10478_3.webp"
+    ],
+    "description": "Cette banane en velours apporte style et confort à toutes vos sorties.",
+    "titreDescription": "Sac banane - Apporte style et confort à toutes vos sorties.",
+    "descriptionComplete": "<p>Alliant chic et praticité, cette banane en velours est l’accessoire parfait pour vos journées actives ou vos sorties décontractées. Son tissu doux et raffiné offre une touche de luxe tandis que sa conception fonctionnelle vous permet de garder l’essentiel à portée de main. Avec sa sangle ajustable et son design tendance, elle s’adapte à toutes les morphologies et styles. Disponible dans plusieurs couleurs, elle ajoute une note élégante et originale à votre tenue.</p>",
+    "materiaux": "Tissu en coton, velour, bouton-pression.",
+    "prix": 24.99,
+    "reference": "A97683",
+    "stock": 1,
+    "createdAt": "2025-08-31T13:08:12.089Z",
+    "updatedAt": "2025-08-31T13:08:12.089Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b449d515e727c6369db154",
+    "categorie": "Sac banane",
+    "imageCouverture": "uploads/sac_banane_tacheté_b10236_0.webp",
+    "nom": "Tacheté",
+    "image": [
+      "uploads/sac_banane_tacheté_a99084_12.webp",
+      "uploads/sac_banane_tacheté_a99084_13.webp"
+    ],
+    "description": "Cette banane en velours apporte style et confort à toutes vos sorties.",
+    "titreDescription": "Sac banane - Apporte style et confort à toutes vos sorties.",
+    "descriptionComplete": "<p>Alliant chic et praticité, cette banane en velours est l’accessoire parfait pour vos journées actives ou vos sorties décontractées. Son tissu doux et raffiné offre une touche de luxe tandis que sa conception fonctionnelle vous permet de garder l’essentiel à portée de main. Avec sa sangle ajustable et son design tendance, elle s’adapte à toutes les morphologies et styles. Disponible dans plusieurs couleurs, elle ajoute une note élégante et originale à votre tenue.</p>",
+    "materiaux": "Tissus coton, bouton-pression.",
+    "prix": 24.99,
+    "reference": "A99084",
+    "stock": 1,
+    "createdAt": "2025-08-31T13:10:45.206Z",
+    "updatedAt": "2025-09-01T10:21:21.100Z",
+    "__v": 1
+  },
+  {
+    "_id": "68b5667582e5dad9e35f2628",
+    "categorie": "Sac banane",
+    "imageCouverture": "uploads/sac_banane_tacheté_b10236_0.webp",
+    "nom": "Vert kaki",
+    "image": [
+      "uploads/sac_banane_vert_a99188_10.webp",
+      "uploads/sac_banane_vert_a99188_11.webp"
+    ],
+    "description": "Cette banane en velours apporte style et confort à toutes vos sorties.",
+    "titreDescription": "Sac banane - Apporte style et confort à toutes vos sorties.",
+    "descriptionComplete": "<p>Alliant chic et praticité, cette banane en velours est l’accessoire parfait pour vos journées actives ou vos sorties décontractées. Son tissu doux et raffiné offre une touche de luxe tandis que sa conception fonctionnelle vous permet de garder l’essentiel à portée de main. Avec sa sangle ajustable et son design tendance, elle s’adapte à toutes les morphologies et styles. Disponible dans plusieurs couleurs, elle ajoute une note élégante et originale à votre tenue.</p>",
+    "materiaux": "Velour, tissus coton, bouton-pression.",
+    "prix": 24.99,
+    "reference": "A99188",
+    "stock": 1,
+    "createdAt": "2025-08-31T13:10:45.206Z",
+    "updatedAt": "2025-09-01T10:32:04.422Z",
+    "__v": 2
+  },
+  {
+    "_id": "68b5751382e5dad9e35f2629",
+    "categorie": "Sac banane",
+    "imageCouverture": "uploads/sac_banane_tacheté_b10236_0.webp",
+    "nom": "Vert",
+    "image": [
+      "uploads/sac_banane_vert_a99392_16.webp",
+      "uploads/sac_banane_vert_a99392_17.webp"
+    ],
+    "description": "Cette banane en velours apporte style et confort à toutes vos sorties.",
+    "titreDescription": "Sac banane - Apporte style et confort à toutes vos sorties.",
+    "descriptionComplete": "<p>Alliant chic et praticité, cette banane en velours est l’accessoire parfait pour vos journées actives ou vos sorties décontractées. Son tissu doux et raffiné offre une touche de luxe tandis que sa conception fonctionnelle vous permet de garder l’essentiel à portée de main. Avec sa sangle ajustable et son design tendance, elle s’adapte à toutes les morphologies et styles. Disponible dans plusieurs couleurs, elle ajoute une note élégante et originale à votre tenue.</p>",
+    "materiaux": "Velour, tissus coton, bouton-pression.",
+    "prix": 24.99,
+    "reference": "A99392",
+    "stock": 1,
+    "createdAt": "2025-08-31T13:10:45.206Z",
+    "updatedAt": "2025-09-01T10:33:09.430Z",
+    "__v": 4
   }
 ]

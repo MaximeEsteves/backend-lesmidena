@@ -7,38 +7,44 @@ async function importCollection() {
   const client = new MongoClient(uri);
   await client.connect();
   const db = client.db('boutique');
-  const col = db.collection('products');
+  const col = db.collection('orders');
 
   // Optionnel : vider la collection avant
   await col.deleteMany({});
 
   // Lire les données JSON
-  const docs = JSON.parse(fs.readFileSync('produits.json', 'utf-8'));
+  const docs = JSON.parse(fs.readFileSync('ajoutCommande.json', 'utf-8'));
 
-  // Pour chaque document, convertir _id en ObjectId si possible ou en générer un nouveau sinon
-  const docsWithObjectId = docs.map((doc) => {
+  const docsWithObjectIdAndDate = docs.map((doc) => {
+    // --- Gestion de _id ---
+    let _id;
     if (doc._id) {
-      // Si _id est une chaîne de 24 caractères hexadécimale, on la convertit
-      if (typeof doc._id === 'string' && doc._id.match(/^[0-9a-fA-F]{24}$/)) {
-        return { ...doc, _id: new ObjectId(doc._id) };
-      } else if (!(doc._id instanceof ObjectId)) {
-        // Tentative de conversion, sinon génère un nouvel ObjectId
-        try {
-          return { ...doc, _id: new ObjectId(doc._id) };
-        } catch (err) {
-          return { ...doc, _id: new ObjectId() };
-        }
+      try {
+        _id = new ObjectId(doc._id.$oid || doc._id);
+      } catch (err) {
+        _id = new ObjectId();
       }
-      return doc;
+    } else {
+      _id = new ObjectId();
     }
-    // Si pas d'_id, en générer un nouveau
-    return { ...doc, _id: new ObjectId() };
+
+    // --- Gestion de la date ---
+    let date;
+    if (doc.date && doc.date.$date) {
+      date = new Date(doc.date.$date);
+    } else if (doc.date) {
+      date = new Date(doc.date);
+    } else {
+      date = new Date();
+    }
+
+    return { ...doc, _id, date };
   });
 
   // Insérer les documents corrigés
-  await col.insertMany(docsWithObjectId);
+  await col.insertMany(docsWithObjectIdAndDate);
 
-  console.log('Import terminé depuis produits.json');
+  console.log('Import terminé depuis ajoutCommande.json avec dates correctes');
   await client.close();
 }
 

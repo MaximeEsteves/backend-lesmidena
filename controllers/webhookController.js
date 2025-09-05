@@ -17,16 +17,6 @@ const safe = (v, fallback = '') =>
   v === undefined || v === null ? fallback : v;
 
 exports.handleStripeWebhook = async (req, res) => {
-  console.log('--- webhook received ---');
-  console.log(
-    'Headers stripe-signature present:',
-    !!req.headers['stripe-signature']
-  );
-  console.log(
-    'Raw body length:',
-    Buffer.isBuffer(req.body) ? req.body.length : typeof req.body
-  );
-
   const sig = req.headers['stripe-signature'];
   let event;
 
@@ -37,7 +27,6 @@ exports.handleStripeWebhook = async (req, res) => {
       sig,
       process.env.STRIPE_WEBHOOK_SECRET
     );
-    console.log('✅ Signature Stripe validée. Event type:', event.type);
   } catch (err) {
     console.error('❌ Signature invalide Stripe :', err.message || err);
     return res
@@ -49,12 +38,10 @@ exports.handleStripeWebhook = async (req, res) => {
     // Gérer uniquement checkout.session.completed (tu peux étendre si tu veux)
     if (event.type === 'checkout.session.completed') {
       const session = event.data.object;
-      console.log('➡️ checkout.session.completed pour session id=', session.id);
 
       // protection doublon
       const exist = await Order.findOne({ stripeSessionId: session.id });
       if (exist) {
-        console.log(`🔁 Commande déjà traitée (session ${session.id})`);
         return res.status(200).send('Webhook dupliqué ignoré');
       }
 
@@ -66,30 +53,36 @@ exports.handleStripeWebhook = async (req, res) => {
         console.error('⚠️ Impossible de parser session.metadata.products :', e);
         produits = [];
       }
-
-      // construire les articles et vérifier l'existence en base
       const articles = [];
+
       for (const item of produits) {
         if (!item?.id) continue;
-        const produit = await Produit.findById(item.id);
-        if (produit) {
-          articles.push({
-            id: produit._id,
-            nom: produit.nom,
-            categorie: produit.categorie,
-            quantite: item.quantite || 1,
-            prixUnitaire: produit.prix,
-            reference: produit.reference || String(produit._id),
-          });
-        } else {
-          console.warn('⚠️ Produit introuvable pour id:', item.id);
-        }
+        const produit = await Produit.findById(item.id).lean();
+        const reference =
+          item.reference ?? produit?.reference ?? String(item.id);
+        const categorie = item.categorie ?? produit?.categorie ?? '';
+        const nom = item.nom ?? produit?.nom ?? 'Produit';
+        const prixUnitaire =
+          typeof item.prixUnitaire !== 'undefined'
+            ? item.prixUnitaire
+            : produit?.prix ?? 0;
+        const quantite = item.quantite || 1;
+
+        articles.push({
+          id: produit?._id || item.id,
+          nom,
+          categorie,
+          reference,
+          quantite,
+          prixUnitaire,
+        });
       }
 
       // Enregistrer la commande
       const nouvelleCommande = new Order({
         clientNom: session.metadata?.nom || 'Inconnu',
         clientEmail: session.metadata?.email || '',
+        clientTelephone: session.metadata?.telephone || '',
         adresse: {
           rue: session.metadata?.adresse || '',
           ville: session.metadata?.ville || '',
@@ -101,7 +94,6 @@ exports.handleStripeWebhook = async (req, res) => {
       });
 
       await nouvelleCommande.save();
-      console.log('✅ Commande enregistrée en BDD id=', nouvelleCommande._id);
 
       // Mise à jour du stock : décrémenter et sauvegarder (sans double décrément)
       for (const item of produits) {
