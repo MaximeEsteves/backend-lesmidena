@@ -105,10 +105,11 @@ exports.modifierProduit = async (req, res) => {
     produit.descriptionComplete =
       req.body.descriptionComplete || produit.descriptionComplete;
     produit.materiaux = req.body.materiaux || produit.materiaux;
-    produit.prix = req.body.prix || produit.prix;
+    produit.prix =
+      req.body.prix !== undefined ? Number(req.body.prix) : produit.prix;
     produit.reference = req.body.reference || produit.reference;
-    produit.stock = req.body.stock || produit.stock;
-
+    produit.stock =
+      req.body.stock !== undefined ? Number(req.body.stock) : produit.stock;
     // ✅ 5. Sauvegarde en base
     await produit.save();
 
